@@ -1,5 +1,4 @@
 # 💻 PRÁCTICAS DE LABORATORIO
 ## ORGANIZACIÓN Y ARQUITECTURA DE COMPUTADORAS
-------------------------------------------------
 9° SEMESTRE
 FI | UNAM
