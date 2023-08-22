@@ -1,2 +1,5 @@
-# OAC
-Practicas de Laboratorio de Organización y Arquitectura de Computadoras
+# 💻 PRÁCTICAS DE LABORATORIO
+## ORGANIZACIÓN Y ARQUITECTURA DE COMPUTADORAS
+------------------------------------------------
+9° SEMESTRE
+FI | UNAM
