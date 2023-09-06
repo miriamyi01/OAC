@@ -1,0 +1,63 @@
+|Practica2_VHDL
+S1 <= cart:inst.S1
+E1 => cart:inst.reloj
+E2 => cart:inst.E1
+CLK => div_frec:inst2.reloj
+S2 <= cart:inst.S2
+
+
+|Practica2_VHDL|cart:inst
+reloj => Esiguiente[0].CLK
+reloj => Esiguiente[1].CLK
+reloj => S2~reg0.CLK
+reloj => S1~reg0.CLK
+E1 => Esiguiente.OUTPUTSELECT
+E1 => Esiguiente.OUTPUTSELECT
+E1 => Esiguiente.OUTPUTSELECT
+E1 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+E2 => Esiguiente.OUTPUTSELECT
+S1 <= S1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= S2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Practica2_VHDL|div_frec:inst2
+reloj => cuenta[0].CLK
+reloj => cuenta[1].CLK
+reloj => cuenta[2].CLK
+reloj => cuenta[3].CLK
+reloj => cuenta[4].CLK
+reloj => cuenta[5].CLK
+reloj => cuenta[6].CLK
+reloj => cuenta[7].CLK
+reloj => cuenta[8].CLK
+reloj => cuenta[9].CLK
+reloj => cuenta[10].CLK
+reloj => cuenta[11].CLK
+reloj => cuenta[12].CLK
+reloj => cuenta[13].CLK
+reloj => cuenta[14].CLK
+reloj => cuenta[15].CLK
+reloj => cuenta[16].CLK
+reloj => cuenta[17].CLK
+reloj => cuenta[18].CLK
+reloj => cuenta[19].CLK
+reloj => cuenta[20].CLK
+reloj => cuenta[21].CLK
+reloj => cuenta[22].CLK
+reloj => cuenta[23].CLK
+reloj => cuenta[24].CLK
+reloj => cuenta[25].CLK
+reloj => cuenta[26].CLK
+reloj => cuenta[27].CLK
+div_clk <= cuenta[24].DB_MAX_OUTPUT_PORT_TYPE
+
+
