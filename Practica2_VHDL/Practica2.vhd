@@ -44,8 +44,8 @@ begin
                         S1 <= '1';
                         S2 <= '1';
                         if E2 = '0' then 
-                            if E2 = '0' then Esiguiente <= C;
-                            elsif E2 = '1' then Esiguiente <= A;
+                            if E1 = '0' then Esiguiente <= C;
+                            elsif E1 = '1' then Esiguiente <= A;
                             end if;
                         elsif E2 = '1' then Esiguiente <= D;
                         end if;
