@@ -30,24 +30,24 @@ begin
                         S2 <= '1';
                         if E1 = '0' then Esiguiente <= B;
                         elsif E1 = '1' then 
-                            if E2 = '0' then Esiguiente <= A;
-                            elsif E2 = '1' then Esiguiente <= D;
-                            end if;
+                           if E2 = '0' then Esiguiente <= A;
+                           elsif E2 = '1' then Esiguiente <= D;
+                           end if;
                         end if;
                     when B => --01
                         S1 <= '0';
                         S2 <= '0';
-                        if E2 = '0' then Esiguiente <= C;
-                        elsif E2 = '1' then Esiguiente  <= B;
+								if E2 = '1' then Esiguiente  <= B;
+                        elsif E2 = '0' then Esiguiente <= C;
                         end if;
                     when C => --10
                         S1 <= '1';
                         S2 <= '1';
-                        if E2 = '0' then 
-                            if E1 = '0' then Esiguiente <= C;
-                            elsif E1 = '1' then Esiguiente <= A;
-                            end if;
-                        elsif E2 = '1' then Esiguiente <= D;
+								if E2 = '1' then Esiguiente <= D;
+                        elsif E2 = '0' then 
+                           if E1 = '0' then Esiguiente <= C;
+                           elsif E1 = '1' then Esiguiente <= A;
+                           end if;
                         end if;
                     when D => --11
                         S1 <= '1';

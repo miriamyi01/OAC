@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Sep 06 19:57:34 2023
+Analysis & Synthesis Status : Successful - Thu Sep 07 22:52:13 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : Practica2
 Top-level Entity Name : Practica2_VHDL
 Family : MAX 10
-Total logic elements : 54
-    Total combinational functions : 53
+Total logic elements : 55
+    Total combinational functions : 54
     Dedicated logic registers : 32
 Total registers : 32
 Total pins : 5

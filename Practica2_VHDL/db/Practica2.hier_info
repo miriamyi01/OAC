@@ -1,8 +1,8 @@
 |Practica2_VHDL
 S1 <= cart:inst.S1
-E1 => cart:inst.reloj
-E2 => cart:inst.E1
 CLK => div_frec:inst2.reloj
+E1 => cart:inst.E1
+E2 => cart:inst.E2
 S2 <= cart:inst.S2
 
 
@@ -23,10 +23,10 @@ E2 => Esiguiente.OUTPUTSELECT
 E2 => Esiguiente.OUTPUTSELECT
 E2 => Esiguiente.OUTPUTSELECT
 E2 => Esiguiente.OUTPUTSELECT
+E2 => Mux1.IN3
 E2 => Esiguiente.OUTPUTSELECT
 E2 => Esiguiente.OUTPUTSELECT
-E2 => Esiguiente.OUTPUTSELECT
-E2 => Esiguiente.OUTPUTSELECT
+E2 => Mux0.IN1
 S1 <= S1~reg0.DB_MAX_OUTPUT_PORT_TYPE
 S2 <= S2~reg0.DB_MAX_OUTPUT_PORT_TYPE
 

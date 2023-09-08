@@ -16,7 +16,7 @@ begin
 		variable cuenta: std_logic_vector(27 downto 0) := X"0000000";
 		begin
 		if rising_edge(reloj) then
-			if cuenta = X"02FAF080" then
+			if cuenta = X"5F5E100" then
 				cuenta := X"0000000";
 			else
 				cuenta := cuenta + 1;
